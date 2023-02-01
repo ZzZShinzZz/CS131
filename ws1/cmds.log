@@ -1,0 +1,40 @@
+   66  .~
+   67  ~
+   68  ls
+   69  winget install --id GitHub.cli
+   70  cd ws1
+   71  git status
+   72  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   73  git branch -M main
+   74  git push -u origin main
+   75  cd~
+   76  cd
+   77  brew install git
+   78  clear
+   79  ls
+   80  cd ws1
+   81  git status
+   82  ls
+   83  git status
+   84  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   85  git branch -M main
+   86  git push -u origin main
+   87  clear
+   88  ls
+   89  cd cmds.log
+   90  .cmds.log
+   91  ./cmds.log
+   92  /cmds.log
+   93  ls
+   94  cd /cmds.log
+   95  cd cmds
+   96  cd /cmds
+   97  cat cmds.log
+   98  cd
+   99  ls
+  100  mkdir cs131/ws1
+  101  mkdir cs131
+  102  ls
+  103  cd cs131
+  104  mkdir ws1
+  105  history 40 > cmds.log
