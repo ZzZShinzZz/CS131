@@ -1,0 +1,6 @@
+- This is the data about Amazon 'Verified" Reviews:
+	+ Lines Count: 1439   
+	+ Words Count: 588540
+- This is the data about Amazon 'Unverified' Reviews:
+    	+ Lines Count: 99  
+	+ Words Count: 43387
