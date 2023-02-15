@@ -1,0 +1,337 @@
+    1  passwd
+    2  ping 172.31.197.164
+    3  wget www.github.com
+    4  git --version
+    5  ls
+    6  mkdir ws1
+    7  cd ws1/
+    8  git init
+    9  history > cmds.log
+   10  ls
+   11  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   12  git branch -M main
+   13  git push -u origin main
+   14  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   15  git branch -M main
+   16  git push -u origin master
+   17  git status
+   18  git add cmds.log
+   19  git status
+   20  git commit -m "my first commit!"
+   21  git config --global user.name "Master"
+   22  git commit -m "my first commit!"
+   23  git commit --amend --reset-autho
+   24  status git
+   25  git status
+   26  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   27  -M main
+   28  git branch -M main
+   29  git push -u origin main
+   30  push -u origin main
+   31  git push -u origin main
+   32  git branch -M main
+   33  git push -u origin main
+   34      git config --global user.name "Your Name"
+   35  git config --global user.name "ZzZShinzZz"
+   36      git commit --amend --reset-author
+   37  git branch -M main
+   38  git push -u origin main
+   39  git confit user.name
+   40  git config user.name
+   41  git config user.name "Anh Le"
+   42  git config user.name
+   43  clear
+   44  cd
+   45  ls
+   46  cd ws1
+   47  git init
+   48  ls
+   49  git status
+   50  git push origin main
+   51  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   52  git branch -M main
+   53  git push -u origin main
+   54  cd
+   55  ls
+   56  cd
+   57  ls
+   58  ~
+   59  cd ~
+   60  ls
+   61  clear
+   62  ls
+   63  ~
+   64  cd ~
+   65  cd. ~
+   66  .~
+   67  ~
+   68  ls
+   69  winget install --id GitHub.cli
+   70  cd ws1
+   71  git status
+   72  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   73  git branch -M main
+   74  git push -u origin main
+   75  cd~
+   76  cd
+   77  brew install git
+   78  clear
+   79  ls
+   80  cd ws1
+   81  git status
+   82  ls
+   83  git status
+   84  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+   85  git branch -M main
+   86  git push -u origin main
+   87  clear
+   88  ls
+   89  cd cmds.log
+   90  .cmds.log
+   91  ./cmds.log
+   92  /cmds.log
+   93  ls
+   94  cd /cmds.log
+   95  cd cmds
+   96  cd /cmds
+   97  cat cmds.log
+   98  cd
+   99  ls
+  100  mkdir cs131/ws1
+  101  mkdir cs131
+  102  ls
+  103  cd cs131
+  104  mkdir ws1
+  105  history 40 > cmds.log
+  106  ls
+  107  mv cmds.log ws1/
+  108  ls
+  109  cd ws1
+  110  ls
+  111  cd ..
+  112  git init
+  113  git add 
+  114  git add .
+  115  git status
+  116  git commit -m "ws1"
+  117  git config --global user.name "Anh Le"
+  118  git config --global user.email anh.d.le@sjsu.edu
+  119  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+  120  git branch -M main
+  121  git push -u origin main
+  122  cd
+  123  pwd
+  124  ls
+  125  cat index.html
+  126  ls -l index.html
+  127  ls -lat
+  128  ls
+  129  ls -latr
+  130  nano
+  131  ls
+  132  nano feb1.txt
+  133  clear
+  134  ls
+  135  wget  https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  136  ls
+  137  gunzip -v amazon_reviews_us_Books_v1_02.tsv.gz 
+  138  ls
+  139  grep 'verified' amazon_reviews_us_Books_v1_02.tsv 
+  140  grep 'unverified' amazon_reviews_us_Books_v1_02.tsv 
+  141  clear
+  142  grep 'verified' amazon_reviews_us_Books_v1_02.tsv | wc -l -w
+  143  grep 'unverified' amazon_reviews_us_Books_v1_02.tsv | wc -l -w
+  144  grep 'verified' amazon_reviews_us_Books_v1_02.tsv | wc -l -w > counts.txt
+  145  cat counts.txt
+  146  grep 'unverified' amazon_reviews_us_Books_v1_02.tsv | wc -l -w >> counts.txt
+  147  cat counts.txt
+  148  vi counts.txt 
+  149  cat counts.txt 
+  150  history > cmds.log
+  151  cat cmds.log 
+  152  ls
+  153  cd cs131/
+  154  mkdir ws2
+  155  ls
+  156  ~
+  157  cd..
+  158  cd ~
+  159  ls
+  160  mv counts.txt cs131/ ws2
+  161  mv counts.txt cs131/w2
+  162  mv cmds.log cs131/w2
+  163  cd cs131/
+  164  cd w2
+  165  ls
+  166  w2
+  167  cd..
+  168  cd~
+  169  cd ~
+  170  ls
+  171  cd cs131/
+  172  ls
+  173  cd w2
+  174  cd ~
+  175  ls
+  176  cd cs131
+  177  cat w2
+  178  clear
+  179  ls
+  180  cd ~
+  181  ls
+  182  grep 'verified' amazon_reviews_us_Books_v1_02.tsv | wc -l -w > counts.txt
+  183  grep 'unverified' amazon_reviews_us_Books_v1_02.tsv  | wc -l -w >> counts.txt
+  184  ls
+  185  cat counts.txt
+  186  vi counts.txt
+  187  cat counts.txt 
+  188  mv counts.txt cs131/ws2
+  189  cd cs131/
+  190  cd ws2
+  191  ls
+  192  cd ~
+  193  ls
+  194* 
+  195  mv cmds.log cs131/ws2
+  196  cd cs131/ws2
+  197  ls
+  198  cd/
+  199  cd /
+  200  ls
+  201  cd ~
+  202  cd cs131
+  203  ls
+  204  git status
+  205  git add counts.txt
+  206  git add ws2/
+  207  git status
+  208  git commit -m "WS2 counts.txt, cmds.log"
+  209  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+  210  git branch -M main
+  211  git push -u origin main
+  212  git push origin
+  213  git push main
+  214  git push -u origin main
+  215  git remote add origin git@github.com:ZzZShinzZz/CS131.git
+  216  git branch -M main
+  217  git push -u origin main
+  218  git remote add origin git@github.com:ZzZShinzZz/CS131.git
+  219  git branch -M main
+  220  git push -u origin main
+  221  clear
+  222  git remote add origin https://github.com/ZzZShinzZz/CS131.git
+  223  git branch -M main
+  224  git push -u origin main
+  225  git config user.name "Anh Le"
+  226  git config credential.username "Anh Le"
+  227  git config user.email "anh.d.le@sjsu.edu"
+  228  git push-r origin main
+  229  git push -u origin main
+  230  clear
+  231  git remote add origin git@github.com:ZzZShinzZz/CS131.git
+  232  git branch -M main
+  233  git push -u origin main
+  234  ls
+  235  cd cs131
+  236  ls
+  237  cd /
+  238  cd~
+  239  cd ~
+  240  ls
+  241  cat amazon_reviews_us_Books_v1_02.tsv 
+  242  clear
+  243  less amazon_reviews_us_Books_v1_02.tsv 
+  244  pwd
+  245  ls
+  246  $ echo $HOME
+  247  echo 
+  248  echo $HOME
+  249  printenv
+  250  clear
+  251  printenv -less
+  252  printenv |less
+  253  printenv | less
+  254  printenv | more
+  255  clear
+  256  export DATETIME = 'date "+%Y%m%d_%H%M%S"'
+  257  export DATETIME= 'date "+%Y%m%d_%H%M%S"'
+  258  export DATETIME='date "+%Y%m%d_%H%M%S"'
+  259  echo %DATETIME
+  260  echo $DATETIME
+  261  export DATETIME='date "+%Y%m%d %H%M%S"'
+  262  echo $DATETIME
+  263  export DATETIME=`date "+%Y%m%d %H%M%S"`
+  264  echo $DATETIME
+  265  unset DATETIME
+  266  echo $DATETIME
+  267  date
+  268  date > out.txt
+  269  cat out.txt 
+  270  vim out.txt 
+  271  date 2> err.txt
+  272  cat err.txt 
+  273  ls >> out2.txt
+  274  cat out2.txt 
+  275  clear
+  276  echo $?
+  277  ls s echo$>
+  278  vim sample2.txt
+  279  ls
+  280  vim index.html 
+  281  ls
+  282  clear
+  283  ls
+  284  ls -a
+  285  ls .*
+  286  clear
+  287  vim bashrc
+  288  vim ~/.bashrc
+  289  ls -latr
+  290  clear
+  291  lll
+  292  vim .bashrc
+  293  lll
+  294  source .bashrc
+  295  lll
+  296  ls
+  297  source .bashrc
+  298  lll
+  299  vim .bashrc
+  300  source .bashrc
+  301  lll
+  302  vim .bashrc
+  303  source .bashrc
+  304  lll
+  305  vim .bashrc
+  306  source .bashrc
+  307  lll
+  308  clear
+  309  ls
+  310  lll
+  311  clear
+  312  s
+  313  ls
+  314  less amazon_reviews_us_Books_v1_02.tsv 
+  315  man cut
+  316  less amazon_reviews_us_Books_v1_02.tsv 
+  317  cut -f2,11 amazon_reviews_us_Books_v1_02.tsv 
+  318  cut -f2,11  amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c
+  319  less amazon_reviews_us_Books_v1_02.tsv 
+  320  cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | unique -c |sort -n | less
+  321  cut -f amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n | less
+  322  cut -f amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n 
+  323  cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n 
+  324  cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n | less
+  325  ls
+  326  cut -f2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -n | less
+  327  cut -f2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -n
+  328  clear
+  329  cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n
+  330  cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn
+  331  head -3 | cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c| sort -rn > ws3.txt
+  332  cut -f2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn | head -3 > ws3.txt
+  333  cat ws3.txt
+  334  less amazon_reviews_us_Books_v1_02.tsv 
+  335  cut -f4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -rn | head -3 >> ws3.txt
+  336  vi ws3.txt 
+  337  history > cmds.log

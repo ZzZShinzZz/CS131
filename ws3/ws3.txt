@@ -1,0 +1,12 @@
+- The top 3 User:
+
+  Count CustomerID
+  21922 50122160
+   9964 50732546
+   2664 52615377
+
+- The top 3 Product: 
+   Count ProductID
+   4625  043935806X
+   3739  0439139597
+   2666  0525947647
