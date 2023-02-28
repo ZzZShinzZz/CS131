@@ -1,0 +1,134 @@
+Script started on 2023-02-27 23:49:41-05:00
+
+TASKS:
+I had some problems with the screen capturing, so there were some of them that I already did but had to redo the whole TASKS to save it in this file.
+So, there would be TASKS that I had already done before.
+
+TASKS:
+
+1)
+bash-4.4$ mkdir a1
+mkdir: cannot create directory ‘a1’: File exists
+bash-4.4$ cd a1
+
+I had already created this before.
+
+2)
+bash-4.4$ pwd
+/mnt/scratch/anh23sp/a1
+
+Home directory: /mnt/scratch/anh23sp
+
+3)
+bash-4.4$ id
+uid=1065(anh23sp) gid=1067(anh23sp) groups=1067(anh23sp)
+My UID: 1065
+My Group: 1067
+
+4)
+bash-4.4$ mkdir temp
+mkdir: cannot create directory ‘temp’: File exists
+
+bash-4.4$ chmod -x temp
+bash-4.4$ cd temp
+bash: cd: temp: Permission denied
+
+=> Could not access to temp
+
+bash-4.4$ ls temp
+bash-4.4$ ls -l temp
+total 0
+
+=> Could still do ls and ls -l because they are simply "read"
+
+bash-4.4$ cat temp/sample.txt
+cat: temp/sample.txt: Permission denied
+
+=> Could not create a file under it
+
+5)
+bash-4.4$ mkdir temp2
+bash-4.4$ mv temp2 temp3
+
+=> Yes, I was allowed to mv temp2 to temp3
+
+bash-4.4$ cp temp3 temp5
+cp: -r not specified; omitting directory 'temp3'
+
+=> No. I could not cp temp3 to temp5
+
+bash-4.4$ cp -r temp3 temp5
+
+=> BUT, I could do it by adding a flag -r
+
+
+6)
+bash-4.4$ ls /proc | grep "mem"
+meminfo
+
+bash-4.4$ ls /proc | grep "cpu"
+cpuinfo
+
+7)
+bash-4.4$ head /proc/meminfo 
+MemTotal:       73080640 kB
+MemFree:         8569664 kB
+MemAvailable:   20005120 kB
+Buffers:          451712 kB
+Cached:         15336064 kB
+SwapCached:       105280 kB
+Active:         12675264 kB
+Inactive:        3851136 kB
+Active(anon):    2693056 kB
+Inactive(anon):  1667392 kB
+
+Total Memory on my server is: 73080640 KB
+
+8)
+- Number of processes: 255
+- The processor architecture name: POWER8
+- Process speed in GHz: 3.525 GHz 
+
+bash-4.4$ head /proc/cpuinfo 
+processor	: 0
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+processor	: 1
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+bash-4.4$ tail /proc/cpuinfo 
+processor	: 255
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+revision	: 2.1 (pvr 004b 0201)
+
+9)
+-rw-r--r-- 1 anh23sp anh23sp 7822180 Feb 27 23:59 downloaded_hashtags_extend.csv
+=> There are 0.00782218 GB
+It has a total of lines: 110350
+
+
+10)
+Word "great" appeared: 114 times
+The number of lines (hashtags) that include "great": 57
+
+11)
+downloaded_hashtags_extend.csv: UTF-8 Unicode text
+=> Encoding: UTF-8
+
+12)
+iconv -f UTF-8 -t ASCII//TRANSLIT downloaded_hashtags_extend.csv
+
+13)
+author,hashtags,date,id
+
+Unique User: 177
+Unique Tweets: 64698
+Unique Hastags: 20258
+All Hashtags: 110350
+So, the unique Hastags is much lesser than the Total Hashtags

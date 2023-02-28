@@ -1,0 +1,72 @@
+
+1)
+  424  mkdir a1
+  425  script a1.txt
+  426  mkdir a1
+  427  cd a1
+
+2)
+  428  pwd
+
+3)
+  429  id
+
+4)
+  431  mkdir temp
+  432  ls -l temp
+  439  chmod -x temp
+  440  cd temp
+  441  ls
+  442  ls temp
+  443  ls -l temp
+  444  cat > temp/sample.txt
+  445  ls
+
+5)
+  446  mkdir temp2
+  447  mv temp2 temp3
+  448  ls
+  449  ls temp3
+  450  ls -l temp3
+  451  ls
+  452  cp temp3 temp4
+  453  cp -r temp3 temp4
+  454  ls
+
+6)
+  455  ls /proc | grep "mem"
+  468  ls /proc | grep "cpu"
+  469 
+
+
+7)
+       head /proc/meminfo
+
+8)     head /proc/cpuinfo
+       tail /proc/cpuinfo
+       cat /proc/cpuinfo
+
+9)
+       cp /home/test/A1/downloaded_hashtags_extend.csv
+       ls -l downloaded_hashtags_extend.csv
+       cat downloaded_hashtags_extend.csv | wc -l
+
+10)
+       cat downloaded_hashtags_extend.csv | grep -i "great" | wc -w
+       cat downloaded_hashtags_extend.csv | grep -i "great" | wc -l
+
+11) 
+       file downloaded_hashtags_extend.csv
+
+12)
+       iconv -f UTF-8 -t ASCII//TRANSLIT downloaded_hashtags_extend.csv
+
+13)
+       head -n 1 downloaded_hastags_extend.csv
+      
+       cut -d "," -f 1 downloaded_hastags_extend.csv | sort | uniq -c | wc -l
+
+       cut -d "," -f 4 downloaded_hastags_extend.csv | sort | uniq -c | wc -l
+
+       cut -d "," -f 2 downloaded_hastags_extend.csv | sort | uniq -c | wc -l
+       cut -d "," -f 1 downloaded_hastags_extend.csv |  wc -l
