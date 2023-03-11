@@ -1,0 +1,21 @@
+  
+cmds.log for a2:
+  head downloaded_tweets_extend_original_nolf2.tsv 
+  head downloaded_tweets_extend_nolf2.tsv
+
+1/
+  cut -f2 downloaded_tweets_extend_original_nolf2.tsv | sort -k1 | uniq -c | sort -rn | head -10
+
+2/
+  cut -f6 downloaded_tweets_extend_original_nolf2.tsv | sort -k1 | uniq -c | sort -rn | head -10
+
+3/
+  cut -f1,5 downloaded_tweets_extend_nolf2.tsv | grep -i "retweeted" | sort -k1 | uniq -w18 -c | sort -rn | head -10
+  
+4/
+  cut -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn | head -30
+
+5/
+  vim a2.txt
+  history > cmds.log
+  vim cmds.log
