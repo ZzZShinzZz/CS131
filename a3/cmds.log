@@ -1,0 +1,23 @@
+Q1/
+cut -f2,6 downloaded_tweets_extend_original_nolf2.tsv|sort -k2|uniq -f1 -c|sort -n > task1.txt
+
+
+Q2/
+awk '{print $1}' task1.txt | uniq -c | sort -k 1n | awk '{ if ($1 >= 3) {print} }' > task2.txt
+
+Q3/
+
+#install gnuplot
+#copy task2 into the source file of gnuplot so that it can find the file to graph it
+
+set terminal svg
+set output 'h1.svg'
+binwidth = 1
+bin(x,width) = width*floor(x/width)
+plot 'task2.txt' using (bin($1, binwidth)):(1.0) smooth freq with boxes
+
+set output 'h4.svg'
+binwidth = 4
+bin(x,width) = width*floor(x/width)
+plot 'task2.txt' using (biin($1, binwidth)):(1.0) smooth freq with boxes
+
